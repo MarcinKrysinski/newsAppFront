@@ -1,0 +1,32 @@
+<p>edit-news works!</p>
+<div class="col-md-6 offset-3">
+  <h3> Edit News </h3>
+
+  <div class="form-group">
+    <label>Id</label>
+    <input type="text" class="form-control" id = "id"
+           [(ngModel)] = "news.title" name ="id">
+  </div>
+
+  <div class="form-group">
+    <label>Mark</label>
+    <input type="text" class="form-control" mark = "mark"
+           [(ngModel)] = "news.published" name ="mark">
+  </div>
+
+  <div class="form-group">
+    <label>Model</label>
+    <input type="text" class="form-control" id = "model"
+           [(ngModel)] = "news.description" name ="model">
+  </div>
+
+  <div class="form-group">
+    <label>Color</label>
+    <input type="text" class="form-control" id = "color"
+           [(ngModel)] = "news.url" name ="color">
+  </div>
+
+<!--  <button id="updateBtn" (click)="update(car)">Update</button>-->
+  <button id="backBtn" (click)="back()">Back</button>
+
+</div>

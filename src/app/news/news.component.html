@@ -1,0 +1,45 @@
+<p>news works!</p>
+<body>
+
+
+<main id="main">
+
+  <h2 id="tableTitle"> News List</h2>
+  <table class = "table table-striped">
+    <thead>
+    <tr>
+      <th> id </th>
+      <th> title</th>
+      <th> description</th>
+      <th> url </th>
+      <th> author </th>
+      <th> image </th>
+      <th> published </th>
+      <th id="columnTitleAction"> Action </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor = "let news of newsList" >
+      <td> {{ news.id}} </td>
+      <td> {{ news.title }} </td>
+      <td> {{ news.description }} </td>
+      <td> {{ news.url }} </td>
+      <td> {{ news.author }} </td>
+      <td> {{ news.image }} </td>
+      <td> {{ news.published }} </td>
+      <td>
+        <a routerLink="/edit-news/{{news.id}}">
+          <button class="buttonUpdate">Edit</button>
+        </a>
+<!--&lt;!&ndash;        <button class="buttonDelete"(click)="deleteCar(car.id)"  >Delete</button>&ndash;&gt;-->
+      </td>
+      <td>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+  <div style="clear:both"></div>
+
+</main>
+</body>
