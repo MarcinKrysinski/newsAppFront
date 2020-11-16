@@ -1,0 +1,37 @@
+#updateBtn{
+  margin-top: 15px;
+  background-color: #256bdb;
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#backBtn{
+  margin-top: 15px;
+  margin-left: 10px;
+  background-color: #4e555b;
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#editNewsTitle{
+  background-color: #1a64db;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.form-group{
+  margin-top: 15px;
+}
+
+.label-title{
+  font-weight: bold;
+}

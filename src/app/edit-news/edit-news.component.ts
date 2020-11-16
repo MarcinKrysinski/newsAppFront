@@ -30,7 +30,7 @@ export class EditNewsComponent implements OnInit {
     this.location.back();
   }
 
-  public edit(editedNews: News): void {
+  public update(editedNews: News): void {
     this.apiService.editNews(editedNews).subscribe(
       res => {
         this.news = editedNews;

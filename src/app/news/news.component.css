@@ -1,0 +1,45 @@
+#tableTitle{
+  background-color: #1a64db;
+  text-align: center;
+  color: white;
+  padding: 10px;
+
+}
+
+#contentColumnTitle{
+  font-weight: bold;
+}
+
+.buttonEdit{
+  background-color: #256bdb;
+  color: white;
+  padding: 2px 15px 2px 15px;
+}
+
+.columnTitle{
+  text-decoration: underline;
+
+}
+
+a:link{
+  color: black;
+  text-decoration: none;
+}
+
+a:visited{
+  color: darkgray;
+}
+
+a:hover{
+  background-color: #949494;
+}
+
+img{
+  height: auto;
+  max-width: 70%;
+}
+
+table {
+  table-layout: fixed;
+}
+
